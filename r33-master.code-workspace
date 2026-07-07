@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"name": "r33-master",
+			"path": "."
+		},
+		{
+			"name": "r33-slave",
+			"path": "../r33-slave"
+		},
+		{
+			"name": "shared_components",
+			"path": "../shared_components"
+		},
+		{
+			"name": "builds",
+			"path": "../builds"
+		}
+	],
+	"settings": {
+		"idf.buildPath": "c:\\Data\\vsCodeProjects\\r33_master_slave\\builds"
+	}
+}

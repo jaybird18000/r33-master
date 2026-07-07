@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "buildDir",
+      "type": "promptString",
+      "description": "ESP-IDF build output directory",
+      "default": "${workspaceFolder}/../builds/master"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "ESP-IDF Build (configurable)",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "C:\\esp\\v6.0.1\\esp-idf\\tools\\idf.py",
+        "-B",
+        "${input:buildDir}",
+        "build"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "ESP-IDF Clean (configurable)",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "C:\\esp\\v6.0.1\\esp-idf\\tools\\idf.py",
+        "-B",
+        "${input:buildDir}",
+        "fullclean"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
