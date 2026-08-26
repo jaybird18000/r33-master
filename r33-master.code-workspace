@@ -9,6 +9,10 @@
 			"path": "../r33-slave"
 		},
 		{
+			"name": "r33-sunShade",
+			"path": "../r33-sunShade"
+		},
+		{
 			"name": "shared_components",
 			"path": "../shared_components"
 		},
