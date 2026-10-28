@@ -4,7 +4,6 @@
   "idf.openOcdConfigs": [
     "board/esp32s3-builtin.cfg"
   ],
-  "idf.portWin": "COM3",
   "idf.currentSetup": "C:\\esp\\v6.0.1\\esp-idf",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32s3",
@@ -17,5 +16,13 @@
     "--compile-commands-dir=c:\\Data\\vsCodeProjects\\r33_master_slave\\r33-master\\build"
   ],
   "idf.flashType": "UART",
-  "idf.buildPath": "c:\\Data\\vsCodeProjects\\r33_master_slave\\builds\\master"
+  "idf.buildPath": "c:\\Data\\vsCodeProjects\\r33_master_slave\\r33-master\\build",
+  "python-envs.pythonProjects": [
+    {
+      "path": ".",
+      "envManager": "ms-python.python:system",
+      "packageManager": "ms-python.python:pip"
+    }
+  ],
+  "idf.port": "COM3"
 }

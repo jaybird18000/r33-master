@@ -22,6 +22,6 @@
 		}
 	],
 	"settings": {
-		"idf.buildPath": "c:\\Data\\vsCodeProjects\\r33_master_slave\\builds"
+		"idf.buildPath": "c:\\Data\\vsCodeProjects\\r33_master_slave\\r33-master\\build"
 	}
 }

@@ -5,7 +5,7 @@
       "id": "buildDir",
       "type": "promptString",
       "description": "ESP-IDF build output directory",
-      "default": "${workspaceFolder}/../builds/master"
+      "default": "${workspaceFolder}/build"
     }
   ],
   "tasks": [
